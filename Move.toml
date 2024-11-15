@@ -1,0 +1,20 @@
+[package]
+name = "decentralized_weather_application"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x1b89b203d2fe5125c5bba4615d6bfabfc3a50b97c09674ce402c4be8df76e8a9"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main" # update this to the desired branch or commit hash
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.MoveStdlib]
+git = "https://github.com/move-language/move.git"
+rev = "main" # Specify a valid commit hash if needed 
+
+[dev-dependencies]
